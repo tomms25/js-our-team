@@ -90,7 +90,25 @@ for ( let i = 0; i < team.length; i++){
     photo.innerHTML = `${teamMember.nome} ${teamMember.ruolo} ${teamMember.foto}`
 
     container.append(photo);
+
+
+    // Bonus 1
+    // Trasformare la stringa foto in una immagine effettiva
+
+    // Come per il div devo creare l'elemento immagine
+    let img = document.createElement('img');
+
+    img.src = `img/${teamMember.foto}`;
+
+    photo.innerHTML = `${teamMember.nome} ${teamMember.ruolo}`
+    container.append(photo);
+    photo.appendChild(img);
+
+
+
 }
+
+
 
 
 
