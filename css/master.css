@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.title {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.title h1{
+    margin-bottom: 20px;
+}
+
+
+
+/* main */
+
+#container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.photo{
+    width: calc(100% / 3 - 20px);
+}
